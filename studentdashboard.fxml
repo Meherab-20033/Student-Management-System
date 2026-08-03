@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="626.0" prefWidth="926.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.studentmangementsystem.StudentDashboardController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <BorderPane layoutX="320.0" layoutY="153.0" prefHeight="626.4" prefWidth="926.4" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <left>
+                  <AnchorPane prefHeight="626.0" prefWidth="247.0" styleClass="background-color" stylesheets="@dashboard.css" BorderPane.alignment="CENTER">
+                     <children>
+                        <ImageView fx:id="Student_Image" fitHeight="181.0" fitWidth="180.0" layoutX="33.0" layoutY="52.0" opacity="0.88" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../im/uiu.png.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutY="254.0" prefHeight="36.0" prefWidth="246.0" text="Welcome">
+                           <font>
+                              <Font name="System Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="username" alignment="CENTER" layoutX="2.0" layoutY="290.0" prefHeight="22.0" prefWidth="242.0" text="Student">
+                           <font>
+                              <Font name="System Bold" size="19.0" />
+                           </font>
+                           <textFill>
+                              <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.0623781681060791" green="0.2631579041481018" blue="0.17949967086315155" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="0.49231967329978943" green="0.8631578683853149" blue="0.6468356251716614" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </RadialGradient>
+                           </textFill>
+                        </Label>
+                        <Line endX="100.0" layoutX="124.0" layoutY="341.0" startX="-100.0" strokeWidth="5.0" />
+                        <Button fx:id="StudentInfo_messageBtn" layoutX="1.0" layoutY="479.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="31.0" prefWidth="246.0" stylesheets="@dashboard.css" text="Chat">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <styleClass>
+                              <String fx:value="background-color" />
+                              <String fx:value="update-btn" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                        </Button>
+                        <Button fx:id="StudentInfoBtn" layoutX="1.0" layoutY="427.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="32.0" prefWidth="246.0" stylesheets="@dashboard.css" text="Profile">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <styleClass>
+                              <String fx:value="update-btn" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                        </Button>
+                        <ImageView fitHeight="33.0" fitWidth="35.0" layoutX="15.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../im/MaleStudent.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="35.0" fitWidth="38.0" layoutX="15.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../im/MessageIcon.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="logout" layoutX="1.0" layoutY="588.0" mnemonicParsing="false" onAction="#logout" prefHeight="38.0" prefWidth="62.0" stylesheets="@dashboard.css">
+                           <styleClass>
+                              <String fx:value="close-btn" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                        </Button>
+                        <ImageView fitHeight="23.0" fitWidth="22.0" layoutX="22.0" layoutY="596.0" opacity="0.65" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../im/signout.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </left>
+               <center>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
+                     <children>
+                        <AnchorPane fx:id="StudentInfo_messegeForm" layoutX="7.0" layoutY="38.0" prefHeight="579.0" prefWidth="661.0" visible="false">
+                           <children>
+                              <AnchorPane layoutX="10.0" layoutY="12.0" prefHeight="554.0" prefWidth="226.0" stylesheets="@dashboard.css">
+                                 <styleClass>
+                                    <String fx:value="background-color" />
+                                    <String fx:value="shadow" />
+                                    <String fx:value="white-bg" />
+                                 </styleClass>
+                                 <children>
+                                    <TextField fx:id="StudentInfo_MessageSearch" layoutX="11.0" layoutY="65.0" prefHeight="26.0" prefWidth="206.0" promptText="Search" style="-fx-background-color: #fff;" stylesheets="@dashboard.css">
+                                       <styleClass>
+                                          <String fx:value="search" />
+                                          <String fx:value="label-info" />
+                                       </styleClass>
+                                    </TextField>
+                                    <ImageView fitHeight="24.0" fitWidth="17.0" layoutX="195.0" layoutY="70.0" opacity="0.57" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../im/search.png.jpeg" />
+                                       </image>
+                                    </ImageView>
+                                    <ScrollPane layoutX="14.0" layoutY="91.0" prefHeight="200.0" prefWidth="200.0" styleClass="shadow" stylesheets="@dashboard.css">
+                                      <content>
+                                        <AnchorPane fx:id="StudentInfo_MessageScrollPane" minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+                                      </content>
+                                    </ScrollPane>
+                                    <Label fx:id="StudentInfo_MessageSelectedID" alignment="CENTER" layoutX="25.0" layoutY="355.0" prefHeight="28.0" prefWidth="178.0" style="-fx-text-fill: black;" stylesheets="@dashboard.css" text="Selected ID">
+                                       <styleClass>
+                                          <String fx:value="white-bg" />
+                                          <String fx:value="shadow" />
+                                          <String fx:value="label-info" />
+                                          <String fx:value="update-btn" />
+                                       </styleClass>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane layoutX="247.0" layoutY="9.0" prefHeight="560.0" prefWidth="406.0">
+                                 <children>
+                                    <AnchorPane layoutX="7.0" layoutY="9.0" prefHeight="542.0" prefWidth="390.0" stylesheets="@dashboard.css">
+                                       <styleClass>
+                                          <String fx:value="background-color" />
+                                          <String fx:value="white-bg" />
+                                          <String fx:value="shadow" />
+                                       </styleClass>
+                                       <children>
+                                          <TextArea fx:id="StudentInfo_MessageTextArea" layoutX="10.0" layoutY="14.0" prefHeight="473.0" prefWidth="370.0" stylesheets="@dashboard.css" />
+                                          <Button fx:id="StudentInfo_MessageSend" layoutX="10.0" layoutY="501.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" stylesheets="@dashboard.css" text="Send">
+                                             <styleClass>
+                                                <String fx:value="background-color" />
+                                                <String fx:value="update-btn" />
+                                                <String fx:value="shadow" />
+                                                <String fx:value="login-btn" />
+                                             </styleClass>
+                                          </Button>
+                                          <ImageView fitHeight="24.0" fitWidth="25.0" layoutX="151.0" layoutY="503.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../im/send1.png" />
+                                             </image>
+                                          </ImageView>
+                                          <ScrollBar layoutX="365.0" layoutY="14.0" orientation="VERTICAL" prefHeight="473.0" prefWidth="14.0" />
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane fx:id="StudentInfo_HomeForm" layoutX="14.0" layoutY="14.0" prefHeight="598.0" prefWidth="651.0">
+                           <children>
+                              <AnchorPane layoutX="8.0" layoutY="17.0" prefHeight="202.0" prefWidth="634.0" stylesheets="@dashboard.css">
+                                 <styleClass>
+                                    <String fx:value="background-color" />
+                                    <String fx:value="shadow" />
+                                    <String fx:value="white-bg" />
+                                 </styleClass>
+                                 <children>
+                                    <Label alignment="CENTER" contentDisplay="TOP" graphicTextGap="2.0" layoutX="1.0" layoutY="63.0" prefHeight="46.0" prefWidth="629.0" style="-fx-text-fill: black; -fx-text-alignment: Bold Italic;" text="“The more that you read, the more things you will know" textAlignment="JUSTIFY" textOverrun="CLIP">
+                                       <font>
+                                          <Font name="System Bold Italic" size="19.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" contentDisplay="TOP" graphicTextGap="2.0" layoutX="1.0" layoutY="95.0" prefHeight="61.0" prefWidth="630.0" style="-fx-text-fill: black; -fx-text-alignment: Bold Italic;" text="The more that you learn, the more places you’ll go.”" textAlignment="JUSTIFY" textOverrun="CLIP">
+                                       <font>
+                                          <Font name="System Bold Italic" size="19.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER_RIGHT" contentDisplay="TOP" graphicTextGap="2.0" layoutX="7.0" layoutY="165.0" prefHeight="22.0" prefWidth="595.0" style="-fx-text-fill: black; -fx-text-alignment: Bold Italic;" text="-Dr. Seuss" textAlignment="JUSTIFY" textOverrun="CLIP">
+                                       <font>
+                                          <Font name="System Bold Italic" size="17.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane layoutX="9.0" layoutY="232.0" prefHeight="352.0" prefWidth="631.0" stylesheets="@dashboard.css">
+                                 <styleClass>
+                                    <String fx:value="white-bg" />
+                                    <String fx:value="background-color" />
+                                    <String fx:value="shadow" />
+                                 </styleClass>
+                                 <children>
+                                    <Label fx:id="StudentInfo_year" layoutX="442.0" layoutY="197.0" opacity="0.63" prefHeight="24.0" prefWidth="174.0" style="-fx-text-fill: #3C3C3C;" styleClass="label1-info" stylesheets="@dashboard.css" text="Year" />
+                                    <Label fx:id="StudentInfo_result" layoutX="442.0" layoutY="238.0" opacity="0.65" prefHeight="24.0" prefWidth="174.0" style="-fx-text-fill: #3C3C3C;" styleClass="label1-info" stylesheets="@dashboard.css" text="Result" />
+                                    <Label fx:id="StudentInfo_dep" layoutX="441.0" layoutY="149.0" opacity="0.68" prefHeight="29.0" prefWidth="175.0" style="-fx-text-fill: #3C3C3C;" styleClass="label1-info" stylesheets="@dashboard.css" text="Department" />
+                                    <Label fx:id="SutdentInfo_id" layoutX="55.0" layoutY="275.0" opacity="0.63" prefHeight="24.0" prefWidth="177.0" style="-fx-text-fill: #3C3C3C;" styleClass="label1-info" stylesheets="@dashboard.css" text="ID" />
+                                    <Label fx:id="StudentInfo_name" layoutX="441.0" layoutY="100.0" opacity="0.62" prefHeight="29.0" prefWidth="176.0" style="-fx-text-fill: #3C3C3C;" styleClass="label1-info" stylesheets="@dashboard.css" text="Name" />
+                                    <Label layoutX="298.0" layoutY="107.0" style="-fx-text-fill: #fff;" text="Student Name:">
+                                       <font>
+                                          <Font name="Tahoma Bold" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="299.0" layoutY="156.0" style="-fx-text-fill: #fff;" text="Department: ">
+                                       <font>
+                                          <Font name="Tahoma Bold" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="301.0" layoutY="199.0" style="-fx-text-fill: #fff;" text="Year :">
+                                       <font>
+                                          <Font name="Tahoma Bold" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="302.0" layoutY="240.0" style="-fx-text-fill: #fff;" text="Final CGPA: ">
+                                       <font>
+                                          <Font name="System Bold" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="302.0" layoutY="277.0" style="-fx-text-fill: #fff;" text="Status: ">
+                                       <font>
+                                          <Font name="System Bold" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="StudentInfo_status" layoutX="442.0" layoutY="275.0" opacity="0.69" prefHeight="24.0" prefWidth="173.0" style="-fx-text-fill: #3C3C3C;" styleClass="label1-info" stylesheets="@dashboard.css" text="Status" />
+                                    <Line cache="true" endX="100.00003051757812" endY="35.799957275390625" layoutX="183.0" layoutY="55.0" startX="100.00003051757812" startY="257.4000244140625" strokeWidth="5.0" />
+                                    <ImageView fx:id="StudentInfo_Image" fitHeight="195.0" fitWidth="200.0" layoutX="44.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true" styleClass="shadow" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                        <Button fx:id="close" layoutX="624.0" mnemonicParsing="false" onAction="#close" prefHeight="26.0" prefWidth="52.0" stylesheets="@dashboard.css" text="X">
+                           <styleClass>
+                              <String fx:value="close-btn" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </center>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

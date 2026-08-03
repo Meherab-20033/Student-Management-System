@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7e15c85-822e-46ac-beac-55435c3d8b13" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2jILrvGdl6tY7MIm484SjecScfs" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AdminServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChatClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChatServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/88018/Desktop/Student Management system/StudentMangementsystem/src/main/java/org/example&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/88018/Desktop/Assignment&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.reader.mode&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\88018\Desktop\Student Management system\StudentMangementsystem\src\main\resources\im" />
+      <recent name="C:\Users\88018\Desktop\Student Management system\StudentMangementsystem\src\main\resources\org\example\studentmangementsystem" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HelloApplication">
+    <configuration name="AdminServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.studentmangementsystem.AdminServer" />
+      <module name="StudentMangementsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.studentmangementsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.studentmangementsystem.ChatClient" />
+      <module name="StudentMangementsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.studentmangementsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.studentmangementsystem.ChatServer" />
+      <module name="StudentMangementsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.studentmangementsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloApplication" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.studentmangementsystem.HelloApplication" />
+      <module name="StudentMangementsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.studentmangementsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AdminServer" />
+      <item itemvalue="Application.ChatClient" />
+      <item itemvalue="Application.ChatServer" />
+      <item itemvalue="Application.HelloApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AdminServer" />
+        <item itemvalue="Application.ChatClient" />
+        <item itemvalue="Application.ChatServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7e15c85-822e-46ac-beac-55435c3d8b13" name="Changes" comment="" />
+      <created>1721069846740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721069846740</updated>
+      <workItem from="1721069847712" duration="13177000" />
+      <workItem from="1721134527703" duration="8757000" />
+      <workItem from="1721169335767" duration="5454000" />
+      <workItem from="1721235015037" duration="18992000" />
+      <workItem from="1721505235513" duration="1588000" />
+      <workItem from="1721801383740" duration="1857000" />
+      <workItem from="1721996308686" duration="17944000" />
+      <workItem from="1722082740285" duration="6700000" />
+      <workItem from="1723126452883" duration="315000" />
+      <workItem from="1725453052669" duration="1290000" />
+      <workItem from="1725510148832" duration="2688000" />
+      <workItem from="1726063595728" duration="4418000" />
+      <workItem from="1726290539780" duration="3104000" />
+      <workItem from="1726328497421" duration="5580000" />
+      <workItem from="1726368446289" duration="4433000" />
+      <workItem from="1726574957119" duration="7068000" />
+      <workItem from="1726675276815" duration="18436000" />
+      <workItem from="1726837969634" duration="814000" />
+      <workItem from="1727025049976" duration="1080000" />
+      <workItem from="1727089838915" duration="2047000" />
+      <workItem from="1727092670572" duration="2648000" />
+      <workItem from="1727096128755" duration="4125000" />
+      <workItem from="1727241176711" duration="278000" />
+      <workItem from="1727242495608" duration="535000" />
+      <workItem from="1727243297905" duration="12270000" />
+      <workItem from="1727387659308" duration="3021000" />
+      <workItem from="1727441051238" duration="589000" />
+      <workItem from="1727528946365" duration="720000" />
+      <workItem from="1727532168125" duration="5259000" />
+      <workItem from="1727598415261" duration="628000" />
+      <workItem from="1727605087166" duration="1708000" />
+      <workItem from="1727606895618" duration="44000" />
+      <workItem from="1727608066028" duration="3109000" />
+      <workItem from="1727697436993" duration="22109000" />
+      <workItem from="1727961885540" duration="14841000" />
+      <workItem from="1727990090370" duration="379000" />
+      <workItem from="1728027384249" duration="300000" />
+      <workItem from="1728027842442" duration="64408000" />
+      <workItem from="1728183057451" duration="3115000" />
+      <workItem from="1728194151562" duration="5292000" />
+      <workItem from="1728225112880" duration="5005000" />
+      <workItem from="1728269912104" duration="2744000" />
+      <workItem from="1728562834125" duration="1756000" />
+      <workItem from="1740749187151" duration="767000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/studentmangementsystem/dashboardController.java</url>
+          <line>926</line>
+          <properties class="org.example.studentmangementsystem.dashboardController" method="availableCourseAdd">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/studentmangementsystem/dashboardController.java</url>
+          <line>698</line>
+          <properties class="org.example.studentmangementsystem.dashboardController" method="addStudentsSearch">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/studentmangementsystem/dashboardController.java</url>
+          <line>627</line>
+          <properties class="org.example.studentmangementsystem.dashboardController" method="addStudentsDelete">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/studentmangementsystem/dashboardController.java</url>
+          <line>987</line>
+          <properties class="org.example.studentmangementsystem.dashboardController" method="availableCourseUpdate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/StudentMangementsystem$HelloApplication.ic" NAME="HelloApplication Coverage Results" MODIFIED="1727097768304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.studentmangementsystem.*</FILTER>
+    </SUITE>
+  </component>
+</project>
